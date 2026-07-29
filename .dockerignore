@@ -1,0 +1,9 @@
+node_modules
+**/node_modules
+**/dist
+**/deploy-out
+.turbo
+.git
+.env
+*.log
+.dockerignore

@@ -1,0 +1,14 @@
+{
+  "name": "x500-facilitator",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "pnpm -r --filter @x500/classifier --filter @x500/db --filter @x500/wrap --filter @x500/facilitator run build",
+    "dev": "pnpm --filter @x500/facilitator dev",
+    "start": "pnpm --filter @x500/facilitator start",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  } 
+}
